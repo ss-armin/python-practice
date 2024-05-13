@@ -1,0 +1,52 @@
+def salambye(name) :
+    print("salam" , name)
+    print("bye bye" , name)
+
+salambye("armin")
+
+def jam(a , b) :
+    javab = a + b
+    return javab
+
+adade_aval = 5
+adade_dovom = 4
+
+jame_2_adad = jam(adade_aval , adade_dovom)
+
+print(jame_2_adad)
+
+def hoghoogh(hour , per_hour) :
+    if hour > 8 :
+        return "in time mojaz nist !"
+    else :
+        daramad = hour * per_hour
+        return daramad
+
+print(hoghoogh(7 , 85))
+print(hoghoogh(9 , 7))
+
+def print_double(x):
+   print(2 * x)
+
+print_double(3)
+
+def shout(word):
+   return word + "!"
+speak = shout
+output = speak("shout")
+print(output)
+
+def add(x, y):
+  return x + y
+
+def do_twice(func, x, y):
+  return func(func(x, y), func(x, y))
+
+a = 5
+b = 10
+
+print(do_twice(add, a, b))
+
+from math import pi
+
+print(pi)
