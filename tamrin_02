@@ -1,0 +1,11 @@
+x = input("adad ro vared kon : ")
+x = int(x)
+c = 0
+while x != -1 :
+    print("adad vared shode : " , x , " ast")
+    c = c + x
+    print("list jadid be " , c , " taghir kard")
+    x = input("adad ro vared kon : ")
+    x = int(x)
+    if x == -1 :
+        print(c * 2)
